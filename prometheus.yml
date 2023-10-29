@@ -1,3 +1,4 @@
+# note : you can find this in your installation folder ex : E:\Download Prometheus\prometheus-2.48.0-rc.0.windows-amd64
 # my global config
 global:
   scrape_interval: 15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
@@ -26,8 +27,8 @@ scrape_configs:
     # scheme defaults to 'http'.
 
     static_configs:
-      - targets: ["localhost:9090"]
+      - targets: ["localhost:9090"] # here prometheus -> host : localhost , port : 9090
   - job_name: "spring-actuator"
     metrics_path: "/actuator/prometheus"
     static_configs:
-      - targets: ["localhost:8081"]
+      - targets: ["localhost:8081"] # here spring boot -> host : localhost , port : 8081
