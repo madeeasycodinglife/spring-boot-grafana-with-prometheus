@@ -15,7 +15,8 @@ management:
       enabled: true
 
 
-
+# prometheus : http://localhost:9090/
+# grafana    : http://localhost:3000/
 
 # Note : only give the host and port in the prometheus.yml file where
 # you installed the prometheus .
