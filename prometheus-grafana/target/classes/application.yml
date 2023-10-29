@@ -1,0 +1,42 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: spring_boot_app
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    prometheus:
+      enabled: true
+
+
+
+
+# Note : only give the host and port in the prometheus.yml file where
+# you installed the prometheus .
+# ex : E:\Download Prometheus\prometheus-2.48.0-rc.0.windows-amd64 in this folder
+# you can find prometheus.yml file .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
