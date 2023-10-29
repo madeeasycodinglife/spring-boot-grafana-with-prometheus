@@ -14,7 +14,7 @@ management:
     prometheus:
       enabled: true
 
-# note : you can use docker or locally install prometheus and grafana here in this i have prmetheus and grafana locally 
+# note : you can use docker or locally install prometheus and grafana here in this i have prometheus and grafana locally 
 # prometheus and grafana server should be up-and-running.
 # prometheus : http://localhost:9090/
 # grafana    : http://localhost:3000/
